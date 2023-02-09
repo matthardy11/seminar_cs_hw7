@@ -24,7 +24,7 @@ void FillArrayMaxtrixDouble(double[,] array)
   {
     for(int j = 0; j < array.GetLength(1); j++)
     {
-      array[i,j] = Math.Round((rand.NextDouble() * rand.Next(0, 100)), 3);
+      array[i,j] = Math.Round((rand.NextDouble() * rand.Next(-100, 100)), 3);
     }
   }
 }
